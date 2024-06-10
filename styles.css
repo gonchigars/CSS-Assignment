@@ -1,0 +1,129 @@
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 200px;
+}
+p {
+    color: rgb(219, 14, 14);
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    left: 500px;
+}
+
+.text-color {
+    color: rgb(78, 13, 228);
+}
+.bold-text {
+    font-weight: bold;
+    margin-left: 200px;
+}
+.italic-text {
+    font-style: italic;
+    margin-left: 200px;
+}
+.underlined-text {
+    text-decoration: underline;
+    margin-left: 200px;
+}
+.relative {
+    position: relative;
+    top: 10px;
+    margin: 100px;
+}
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    margin: 100px;
+}
+.fixed {
+    position: fixed;
+    top: 10px;
+    left: 400px;
+    margin: 150px;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+   
+}
+
+.inline-element {
+    display: inline;
+    margin-top: 200px;
+}
+.block-element {
+    display: block;
+}
+.inline-block-element {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+a:hover .hover-link {
+    color: red;
+}
+
+.box-model {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: background-color 0.5s ease;
+    margin: 10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.transition-box:hover {
+    background-color: red;
+}
+@keyframes myAnimation {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.animation-box {
+    animation: myAnimation 2s infinite;
+}
+
+
