@@ -1,0 +1,148 @@
+.box-model {
+    height: 20px;
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 20px;
+    text-align: center;
+    background-color: greenyellow;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.inline-element {
+    display: inline;
+}
+.block-element {
+    display: block;
+}
+.inline-block-element{
+    display : inline-block;
+}
+
+.center-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.centered {
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+}
+
+
+
+
+.text-color {
+    color: blue;
+}
+.bold-text {
+    font-weight: bold; 
+}
+.italic-text {
+    font-style: italic;
+}
+.underlined-text {
+    text-decoration: underline;
+}
+
+
+
+.relative {
+    position: relative;
+    top: 1px;
+    left: 5px;
+    
+    
+}
+.absolute {
+    position: absolute;
+    top: 470px;
+    left: 15px;
+    
+}
+.fixed {
+    position: fixed;
+    top: 500px;
+    left: 15px;
+
+}
+.sticky {
+    position: sticky;
+    top: 100px;
+    left: 5000px;
+}
+
+
+.hover-link {
+    color: blue;
+}
+
+
+.transition-box {
+    width: 100px;
+    height: 20;
+    background-color: yellowgreen;
+    transition: background-color 0.5s ease;    
+}
+
+
+@keyframes mahammad {
+    0% {
+        opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+    }
+      
+.animation-box {
+    animation: mahammad 1s ease-in-out;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: gray;
+    color: blue;
+    padding: 12px;
+    font-size:12px;
+    border: none;
+    cursor:pointer;
+}
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:goldenrod;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.797) ;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover button {
+    background-color: hsl( 0,0%,70%);
+}
+.dropdown a:hover{
+    background-color: hsl( 0,0%,70%);
+}
+.responsive-image {
+    max-width: 50%;
+    height: auto;
+}
