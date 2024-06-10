@@ -142,3 +142,7 @@
 .dropdown a:hover{
     background-color: hsl( 0,0%,70%);
 }
+.responsive-image {
+    max-width: 50%;
+    height: auto;
+}
